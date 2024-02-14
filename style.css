@@ -9,3 +9,10 @@
 .copyright {
     text-align:left
 }
+
+header {
+    font-size: 50px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    height: 69px;
+}
