@@ -4,7 +4,6 @@
      color: seashell;
      background-color: black;
      opacity: 0.9;
-     font-size: 22px;
  }
 
  header {
@@ -17,13 +16,34 @@
      z-index: 1;
  }
 
- .header-logo {
-     text-align: left;
-     padding-left: 10px;
-     margin: 0px;
-     font-size: 50px !important;
+ header img {
+     padding: 10px;
  }
 
  nav {
-    padding-right: 20px;
-}
+     padding-right: 20px;
+ }
+
+ .nav-bar a {
+    padding-left: 20px;
+    font-size: 22px;
+ }
+ 
+ div {
+    position: relative;
+ }
+ .our-mission {
+    height: 700px;
+    width: 1200px;
+    position: relative;
+    display: inline-flex;
+    margin-top: 70px;
+    background-image: url("img-mission-background.jpg");
+ }
+
+ .text-mission {
+    top: 45%;
+    width: 1200px;
+    height: 100px;
+    opacity: 1;
+ }
